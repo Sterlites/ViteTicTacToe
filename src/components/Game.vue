@@ -5,7 +5,7 @@
         <div 
           v-for="(cell, index) in board" 
           :key="index" 
-          @click="makeMove(index).font-size"
+          @click="makeMove(index)"
         >
           {{ cell }}
         </div>
